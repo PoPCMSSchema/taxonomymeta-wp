@@ -28,7 +28,7 @@
     },
     "autoload": {
         "psr-4": {
-            "GetPoP\\TaxonomyMetaWP\\": "src"
+            "PoP\\TaxonomyMetaWP\\": "src"
         },
         "files": [
             "initialize.php"
@@ -36,7 +36,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "GetPoP\\TaxonomyMetaWP\\": "tests"
+            "PoP\\TaxonomyMetaWP\\": "tests"
         }
     },
     "scripts": {

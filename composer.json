@@ -19,9 +19,9 @@
     "prefer-stable": true,
     "require": {
         "php" : "~7.1",
-        "getpop/taxonomymeta": "^1.0@dev",
-        "getpop/taxonomies-wp": "^1.0@dev",
-        "getpop/migrate-taxonomymeta-wp": "^1.0@dev"
+        "getpop/taxonomymeta": "~0.1",
+        "getpop/taxonomies-wp": "~0.1",
+        "getpop/migrate-taxonomymeta-wp": "~0.1"
     },
     "require-dev": {
         "phpunit/phpunit" : ">=7.0",

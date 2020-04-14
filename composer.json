@@ -21,7 +21,7 @@
         "php" : "~7.1",
         "getpop/taxonomymeta": "~0.1",
         "getpop/taxonomies-wp": "~0.1",
-        "getpop/migrate-taxonomymeta-wp": "~0.1"
+        "getpop/migrate-taxonomymeta-wp": "dev-master"
     },
     "require-dev": {
         "phpstan/phpstan": "^0.12",

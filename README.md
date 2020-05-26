@@ -25,7 +25,9 @@ composer require getpop/taxonomymeta-wp
 Initialize the component:
 
 ``` php
-\PoP\TaxonomyMetaWP\Component::initialize();
+\PoP\Root\ComponentLoader::initializeComponents([
+    \PoP\TaxonomyMetaWP\Component::class,
+]);
 ```
 
 ## Standards

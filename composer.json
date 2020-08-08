@@ -1,5 +1,5 @@
 {
-    "name": "getpop/taxonomymeta-wp",
+    "name": "pop-schema/taxonomymeta-wp",
     "type": "library",
     "description": "Implementation for WordPress of contracts from package \"Taxonomy Meta\"",
     "keywords": [
@@ -19,9 +19,9 @@
     "prefer-stable": true,
     "require": {
         "php": "~7.2",
-        "getpop/taxonomymeta": "dev-master",
-        "getpop/taxonomies-wp": "dev-master",
-        "getpop/migrate-taxonomymeta-wp": "dev-master"
+        "pop-schema/taxonomymeta": "dev-master",
+        "pop-schema/taxonomies-wp": "dev-master",
+        "pop-schema/migrate-taxonomymeta-wp": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": ">=8.5",
@@ -30,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "PoP\\TaxonomyMetaWP\\": "src"
+            "PoPSchema\\TaxonomyMetaWP\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "PoP\\TaxonomyMetaWP\\": "tests"
+            "PoPSchema\\TaxonomyMetaWP\\": "tests"
         }
     },
     "scripts": {
